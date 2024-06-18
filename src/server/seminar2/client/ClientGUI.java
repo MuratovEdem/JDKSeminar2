@@ -1,4 +1,4 @@
-package server.client;
+package server.seminar2.client;
 
 import javax.swing.*;
 import java.awt.*;

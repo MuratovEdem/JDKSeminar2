@@ -1,9 +1,9 @@
 package server;
 
-import server.client.ClientController;
-import server.client.ClientGUI;
-import server.server.ServerController;
-import server.server.ServerGUI;
+import server.seminar2.client.ClientController;
+import server.seminar2.client.ClientGUI;
+import server.seminar2.server.ServerController;
+import server.seminar2.server.ServerGUI;
 
 public class Main {
     public static void main(String[] args) {

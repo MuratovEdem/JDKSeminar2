@@ -1,4 +1,4 @@
-package server.client;
+package server.seminar2.client;
 
 /**
  * Интерфейс описывающий абстракцию GUI

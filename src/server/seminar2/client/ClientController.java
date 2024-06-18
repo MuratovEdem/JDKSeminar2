@@ -1,6 +1,6 @@
-package server.client;
+package server.seminar2.client;
 
-import server.server.ServerController;
+import server.seminar2.server.ServerController;
 
 /**
  * класс содержащий логику работы клиента
