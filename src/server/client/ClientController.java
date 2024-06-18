@@ -1,5 +1,7 @@
 package server.client;
 
+import server.server.ServerController;
+
 /**
  * класс содержащий логику работы клиента
  *
@@ -80,6 +82,10 @@ public class ClientController {
         } else {
             showOnWindow("Нет подключения к серверу");
         }
+    }
+
+    public String getName() {
+        return name;
     }
 
     /**

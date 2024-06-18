@@ -68,6 +68,13 @@ public class ClientGUI extends JFrame implements ClientView{
         hideHeaderPanel(true);
     }
 
+    @Override
+    public void connectToServer() {
+        if (clientController.connectToServer(tfLogin.getText())) {
+            headerPanel.setVisible(false);
+        }
+    }
+
     /**
      * Метод, описывающий отключение клиента от сервера со стороны клиента
      */
