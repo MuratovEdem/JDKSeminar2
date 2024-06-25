@@ -1,6 +1,7 @@
 package server.seminar4;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class EmployeeDirectory {
@@ -25,5 +26,4 @@ public class EmployeeDirectory {
     public void add(Employee employee) {
         employees.add(employee);
     }
-
 }
